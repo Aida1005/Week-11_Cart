@@ -1,0 +1,69 @@
+body{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.item_description{
+    color: grey;
+}
+.item-price, .total-price_amount, .total-price_currency{
+    font-family: Arial, bold, sans-serif;
+    color: blue;
+}
+.total-price{
+    color: black;
+    font-family: Arial, bold;
+}
+
+img{
+    width: 100px;
+    height: 200px;
+}
+.container{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.cart-item_info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid black;
+}
+
+button{
+    background: rgb(83, 99, 242);
+    color: rgb(222, 218, 218);
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    width: 150px;
+    height: 50px;
+}
+
+button:hover{
+    background: rgb(94, 164, 229);
+}
+
+button:active{
+    background: black;
+    color: #fff;
+}
+
+.payment{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.total-price_topay{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
