@@ -21,7 +21,10 @@
                 <p class="item_description-size">Size: M</p>
                 <p class="item_description-quantity">Quantity: 1</p>
                 </div>
-                <p class="item-price" id="num1">RM249.00</p>
+                <div class="item-price">
+                    <p class="item-price_currency">RM</p>
+                    <p class="item-price" id="num1">260.00</p>
+                </div>
         </div>
 
         <div class="cart-item">
@@ -32,8 +35,11 @@
                 <p class="item_description-size">Size: EU 38</p>
                 <p class="item_description-quantity">Quantity: 1</p>
             </div>
-            <p class="item-price" id="num2">RM399.00</p>
+            <div class="item-price">
+                <p class="item-price_currency">RM</p>
+                <p class="item-price" id="num2">400.00</p>
             </div>
+        </div>
 
             <div class="cart-item">
                 <div class="cart-item_info">
@@ -43,8 +49,11 @@
                     <p class="item_description-size">Size: M</p>
                     <p class="item_description-quantity">Quantity: 1</p>
                 </div>
-                <p class="item-price" id="num3">RM299.00</p>
+                <div class="item-price">
+                    <p class="item-price_currency">RM</p>
+                    <p class="item-price" id="num3">240.00</p>
                 </div>
+            </div>
 
                 <div class="cart-item">
                     <div class="cart-item_info">
@@ -54,14 +63,17 @@
                         <p class="item_description-size">Size: EU 36/38</p>
                         <p class="item_description-quantity">Quantity: 1</p>
                     </div>
-                    <p class="item-price" id="num4">RM45.00</p>
+                    <div class="item-price">
+                    <p class="item-price_currency">RM</p>
+                    <p class="item-price" id="num4">40.00</p>
+                    </div>                    
                     </div>
     </div>
     <section class="payment">
         <div class="button">
-            <button class="discount-button">Discount 20%</button>
+            <button class="discount-button" onclick="couponDiscount();">Discount 20%</button>
         </div>
-            <div class="item-price total-price">
+            <div class="total-price">
                 <h2 class="total-price_text">Total:</h2>
                 <div class="total-price_topay">
                     <p class="total-price_currency">RM</p>

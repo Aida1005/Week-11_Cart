@@ -9,6 +9,12 @@ body{
     font-family: Arial, bold, sans-serif;
     color: blue;
 }
+
+.item-price{
+    display: flex;
+    flex-direction: row;
+}
+
 .total-price{
     color: black;
     font-family: Arial, bold;
